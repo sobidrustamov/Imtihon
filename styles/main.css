@@ -1,0 +1,274 @@
+header {
+  padding-block: 1.5rem;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+nav {
+  padding: 10px;
+}
+
+.logo {
+  width: 194px;
+  height: 60px;
+  margin: 0 auto 0 0;
+  padding: 4px;
+}
+
+.nav-list li:nth-child(2) {
+  margin-inline: 24px;
+}
+
+.nav-list li:last-child {
+  margin-left: 36px;
+}
+
+.hero-content {
+  padding: 168px 300px;
+  background-image: url(../img/bg.svg);
+  background-size: cover;
+  margin-block: 100px;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  line-height: 96px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.hero-content .links {
+  gap: 12px;
+}
+
+.hero-content a {
+  width: 232px;
+}
+
+.pipe-title {
+  gap: 36px;
+}
+
+#traditional h2 {
+  width: 400px;
+}
+
+.trad-list {
+  gap: 12px;
+}
+
+.trad-list li {
+  padding: 24px;
+  gap: 12px;
+  box-shadow: 0px 14px 64px -4px rgba(35, 21, 91, 0.05),
+    0px 8px 12px -6px rgba(35, 21, 91, 0.05);
+}
+
+.trad-list li:hover {
+  box-shadow: 0px 14px 64px 4px rgba(35, 21, 91, 0.05),
+    0px 8px 12px 6px rgba(35, 21, 91, 0.05);
+}
+
+.trad-list span {
+  font-size: 1.5rem;
+}
+
+.trad-list p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 300px;
+  line-height: 28px;
+}
+
+#for-project {
+  border-radius: 250px 0px 0px 0px;
+  background: linear-gradient(180deg, #fbfaff 29.73%, #fff 100%);
+}
+
+.bg-img {
+  background-image: url(../img/vision-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 250px 0px 0px 0px;
+}
+.vision-title p {
+  width: 616px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 12px;
+}
+
+#for-project .vision-list {
+  gap: 20px;
+  height: 520px;
+  flex-wrap: wrap;
+}
+
+.vision-list li {
+  width: 580px;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0px 14px 64px -4px rgba(35, 21, 91, 0.05),
+    0px 8px 12px -6px rgba(35, 21, 91, 0.05);
+}
+
+.vision-list li:hover {
+  box-shadow: 0px 14px 64px 4px rgba(35, 21, 91, 0.05),
+    0px 8px 12px 6px rgba(35, 21, 91, 0.05);
+}
+
+.vision-list h4 {
+  line-height: 24px;
+}
+
+.vision-list p {
+  font-size: 14px;
+  line-height: 24px;
+  width: 458px;
+}
+
+.vision-links a {
+  width: 232px;
+  text-align: center;
+}
+
+#for-investors {
+  border-radius: 0px 250px 0px 0px;
+  background: linear-gradient(180deg, #fbfaff 29.73%, #fff 100%);
+}
+
+.bg-color {
+  background-image: url(../img/investors-bg.svg);
+  background-position: 100px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#for-investors .vision-list {
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#brought {
+  gap: 260px;
+  margin-right: 6rem;
+  margin-bottom: 200px;
+}
+
+#brought h2 {
+  width: 415px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.brought-content {
+  gap: 52px;
+}
+
+.img-box {
+  height: 830px;
+  width: 590px;
+}
+
+.img-box img {
+  height: 100%;
+}
+
+.brought-content p {
+  width: 579px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+#partnership {
+  margin-bottom: 200px;
+}
+
+#partnership p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#joinus {
+  border-radius: 250px 0px 0px 0px;
+  background: var(--main-body, #23155b);
+  color: #fff;
+}
+.joinus-bg-img {
+  background-image: url(../img/joinus.png);
+  background-size: cover;
+  /* mix-blend-mode: soft-light; */
+}
+
+.join-left {
+  gap: 74px;
+  padding: 150px 0;
+}
+
+.join-right {
+  padding: 150px 0;
+}
+.joinus-title {
+  width: 600px;
+}
+
+.joinus-title p {
+  color: #d4cdef;
+}
+
+label {
+  color: var(--main-gray-light, #d4cdef);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+input {
+  display: flex;
+  width: 340px;
+  height: 48px;
+  padding: 14px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid #f4f5f4;
+  background: #fff;
+}
+
+form {
+  width: 700px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+form button {
+  width: 232px;
+  display: flex;
+  justify-content: center;
+}
+
+.join-icons {
+  width: 218px;
+}
+
+.join-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.contacts a:first-child {
+  text-decoration: underline;
+}

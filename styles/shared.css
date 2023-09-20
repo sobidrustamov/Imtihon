@@ -1,0 +1,273 @@
+/* reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #23155b;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* reset end */
+
+/* utils */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-inline: 6rem;
+}
+
+.primary-text {
+  color: #8053ff;
+  font-weight: 700;
+}
+
+.primary-btn {
+  border-radius: 8px;
+  background: #8053ff;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.secondary-btn {
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: 1px solid #8053ff;
+  background: #fff;
+}
+
+.check-icon {
+  background-color: #fff;
+  color: #00d386;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap-0 {
+  gap: 0;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-6 {
+  flex: 6;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+.text-md {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.text-lg {
+  font-size: 3.2rem;
+}
+
+.text-xl {
+  font-size: 4rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.mx-1 {
+  margin-inline: 1rem;
+}
+
+.my-1 {
+  margin-block: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.mx-2 {
+  margin-inline: 2rem;
+}
+
+.my-2 {
+  margin-block: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.mx-3 {
+  margin-inline: 3rem;
+}
+
+.my-3 {
+  margin-block: 200px;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.px-1 {
+  padding-inline: 1rem;
+}
+
+.py-1 {
+  padding-block: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.px-2 {
+  padding-inline: 2rem;
+}
+
+.py-2 {
+  padding-block: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.px-3 {
+  padding-inline: 3rem;
+}
+
+.py-3 {
+  padding-block: 200px;
+}
+
+/* utils end */
